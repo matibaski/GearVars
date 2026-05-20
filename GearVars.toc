@@ -1,0 +1,13 @@
+## Interface: 11508
+## Title: GearVars
+## Notes: Store MH/OH/Shield names once. Macros with {MH}/[OH]/<SH> tokens auto-update when you change gear.
+## Author: matija
+## Version: 1.1.1
+## SavedVariablesPerCharacter: GearVarsDB
+## IconTexture: Interface\Icons\INV_Misc_Wrench_01
+## X-Category: Combat
+## X-Website: https://github.com/YOURNAME/GearVars
+## X-Curse-Project-ID: 0
+## X-Wago-ID: 0
+
+GearVars.lua
