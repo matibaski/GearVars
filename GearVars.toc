@@ -6,8 +6,8 @@
 ## SavedVariablesPerCharacter: GearVarsDB
 ## IconTexture: Interface\Icons\INV_Misc_Wrench_01
 ## X-Category: Combat
-## X-Website: https://github.com/YOURNAME/GearVars
-## X-Curse-Project-ID: 0
+## X-Website: https://github.com/matibaski/GearVars
+## X-Curse-Project-ID: 1548781
 ## X-Wago-ID: 0
 
 GearVars.lua
