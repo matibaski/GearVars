@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.2 (2026-05-20)
+
+- Add Wago distribution alongside CurseForge.
+
 ## 1.1.1 (2026-05-20)
 
 - Fixed: `EditMacro` no longer resets the macro's custom icon when expanding a template. Previously the icon ID was being overwritten with nil (invisible in most cases because `#showtooltip` overrides display, but a real bug for macros without it).
