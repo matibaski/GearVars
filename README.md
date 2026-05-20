@@ -1,5 +1,7 @@
 # GearVars
 
+![GearVars window](screenshots/main-window.png)
+
 Stop editing macros every time you replace a weapon or shield.
 
 GearVars stores your **Main Hand**, **Off Hand**, and **Shield** item names once. Any macro that uses the tokens `{MH}`, `[OH]`, or `<SH>` is automatically rewritten with the current item names whenever you change gear. Great for warriors who stance-dance and swap shields, but works for any class.
@@ -52,6 +54,14 @@ You can write tokens in any of three styles, whichever your keyboard makes easie
 - `<MH>` `<OH>` `<SH>`
 
 Square brackets are safe here — `MH`/`OH`/`SH` aren't real macro conditionals, and substitution happens before WoW ever parses the macro.
+
+## Inspecting bound macros
+
+The right side of the window lists every macro GearVars is managing. Hover a row to preview the stored template body:
+
+![Macro tooltip preview](screenshots/macro-tooltip-example.png)
+
+Right-click a row to unbind that macro (the macro itself isn't deleted — only GearVars forgets it). Orphaned templates — where the macro was renamed or deleted outside GearVars — are flagged in red.
 
 ## Slash commands
 
